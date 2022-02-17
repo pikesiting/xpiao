@@ -4,11 +4,66 @@
 
 int main()
 {
-	int age = 19;
-	if (age < 18)
-		printf("未成年\n");
-	else if (age>=18 && age<35)
-		printf("中年\n");
+	int ch = 0;
+	while ((ch = getchar()) != EOF)
+	{
+		putchar(ch);
+	}
+	/*putchar(ch);
+	printf("%c\n", ch);*/
+	/*int i = 1;
+	while (i<10)
+	{
+		if (5 == i){
+			i++;
+			continue;
+		}
+		printf("%d", i);
+		i++;
+	}*/
+	/*int day = 0;
+	scanf("%d", &day);
+	switch (day)
+	{
+	case 1:
+		printf("一\n");
+		break;
+	case 2:
+		printf("er");
+		break;
+	case 3:
+		printf("san");
+		break;
+	case 4:
+		printf("si");
+		break;
+	case 5:
+		printf("wu");
+		break;
+	default:
+		printf("水乳错误");
+	}*/
+
+
+	/*int a = 12;
+	int b = 100;
+	int c = 1;
+	if (0 == a % 2)
+		printf("%d是偶数\n",a);
+	else
+		printf("%d奇数\n",a);
+	while (c<=b){
+		c % 2 == 1 ? printf("%d,", c) : printf("");
+		c++;
+	}*/
+	//int a = 1;
+	//int b = 2;
+	//if (a == 1)
+	//	if (b == 2)
+	//		printf("222\n");
+	//	else
+	//		printf("333\n");
+
 	return 0;
 }
 
