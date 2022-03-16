@@ -58,6 +58,13 @@ void test()
 }
 int main()
 {
+	int arr1[10] = { 1, 2, 3 };
+	int arr2[] = { 1, 2, 3 ,4};
+	int arr3[3] = { 1, 2, 3 };
+	char arr4[10] = { '1', 2, '3' };
+	char arr5[] = { '1',' 2', '3' };
+	char arr6[] = "123124";
+	printf("1%d\n2%d\n3%d\n4%d\n5%d\n6%d", sizeof(arr1), sizeof(arr2), sizeof(arr3), sizeof(arr4), sizeof(arr5), sizeof(arr6) );
 	test();
 	return 0;
 }
